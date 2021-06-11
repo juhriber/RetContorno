@@ -16,7 +16,7 @@ namespace RetContorno
             {
                 Console.WriteLine();
                 Console.WriteLine("Você digitou um valor invalido!");
-                Console.WriteLine("Pressione ENTER para sair, e execute o programa novamente");
+                Console.WriteLine("Pressione ENTER para sair e execute o programa novamente");
                 Console.ReadKey();
                 Console.Clear();
                 Environment.Exit(-1);
@@ -24,8 +24,8 @@ namespace RetContorno
             if (largura < 1 || largura > 10)
             {
                 Console.WriteLine();
-                Console.WriteLine("Você digite números entre 1 a 10!");
-                Console.WriteLine("Pressione ENTER para sair, e execute o programa novamente");
+                Console.WriteLine("Você deve digitar números entre 1 a 10!");
+                Console.WriteLine("Pressione ENTER para sair e execute o programa novamente");
                 Console.ReadKey();
                 Console.Clear();
                 Environment.Exit(-1);
@@ -37,7 +37,7 @@ namespace RetContorno
             {
                 Console.WriteLine();
                 Console.WriteLine("Você digitou um valor invalido!");
-                Console.WriteLine("Pressione ENTER para sair, e execute o programa novamente");
+                Console.WriteLine("Pressione ENTER para sair e execute o programa novamente");
                 Console.ReadKey();
                 Console.Clear();
                 Environment.Exit(-1);
@@ -46,8 +46,8 @@ namespace RetContorno
             if (altura < 1 || altura > 10)
             {
                 Console.WriteLine();
-                Console.WriteLine("Você digite números entre 1 a 10!");
-                Console.WriteLine("Pressione ENTER para sair, e execute o programa novamente");
+                Console.WriteLine("Você deve digitar números entre 1 a 10!");
+                Console.WriteLine("Pressione ENTER para sair e execute o programa novamente");
                 Console.ReadKey();
                 Console.Clear();
                 Environment.Exit(-1);
